@@ -137,7 +137,7 @@ class ACARS extends CodonModule
 	public function getJson()
 	{
 	
-	FlightMapData::DeleteOlderThanDay();
+	FlightMapData::clearFLight();
 	
 	$pilotid = $_GET['pid'];
 	$flightnum = $_GET['flgnum'];
