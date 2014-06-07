@@ -1,9 +1,4 @@
 <?php
-////////////////////////////////////////////////////////////////////////////
-//Crazycreatives Track Flight module for phpVMS virtual airline system    //
-//@author Manuel Seiwald                                                  //
-//@copyright Copyright (c) 2013, Manuel Seiwald, All Rights Reserved      //
-////////////////////////////////////////////////////////////////////////////
  
 class FlightMapData extends CodonData
 {
@@ -18,7 +13,7 @@ class FlightMapData extends CodonData
 	}
 	
 	
-	public static function DeleteOlderThanDay()
+	public static function clearFLight()
 	{
 	
 		$sql = "DELETE FROM position_flight	
@@ -27,26 +22,8 @@ class FlightMapData extends CodonData
 		
 			}
 	
-
-
-   public function GetFlightPositions($pilotid, $flightnum)
-	{
-		$sql = "SELECT * FROM position_flight 
-WHERE pilotid = '$pilotid' AND flightnum = '$flightnum'
-ORDER BY id DESC";
-		$query = DB::get_results($sql);
-		return $query;
-	}
 	
 	
-		public static function searchAirportICAO($icao)
-	{
-		$sql = "SELECT * FROM ".TABLE_PREFIX."airports
-				WHERE icao='$icao'";
 		
-		return DB::get_row($sql);
-	}
-	
-	
 	
 }
