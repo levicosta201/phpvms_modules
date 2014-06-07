@@ -20,7 +20,7 @@ SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 -- --------------------------------------------------------
 
 --
--- Tabellenstruktur für Tabelle `position_flight`
+-- Create table`position_flight`
 --
 
 CREATE TABLE IF NOT EXISTS `position_flight` (
@@ -36,6 +36,6 @@ CREATE TABLE IF NOT EXISTS `position_flight` (
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
 
 --
--- Daten für Tabelle `acars_position`
+-- Daten für Tabelle `position_flight`
 --
 
