@@ -375,7 +375,7 @@ function populateMap(data)
 			
 			
 
-				$.getJSON('http://voemercosul.com/v2/action.php/acars/getjson?pid='+pilid+'&flgnum='+this.flightdetails.flightnum+'').done(function( data ){
+				$.getJSON('http://yoururl.com/v2/action.php/acars/getjson?pid='+pilid+'&flgnum='+this.flightdetails.flightnum+'').done(function( data ){
 				
 				var tracker = new Array();
 		$.each( data.bindings, function(i, value){
