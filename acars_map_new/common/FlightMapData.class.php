@@ -2,7 +2,7 @@
  
 class FlightMapData extends CodonData
 {
-	public static function AddPositionReport($pilotid, $flightnum, $lat, $lng, $alt, $gs)
+	public static function insertReport($pilotid, $flightnum, $lat, $lng, $alt, $gs)
 	{
 		
 		$sql = "INSERT INTO position_flight (pilotid, flightnum, lat, lng, altitude, groundspeed) 
