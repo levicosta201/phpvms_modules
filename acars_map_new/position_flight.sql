@@ -14,7 +14,7 @@ SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 /*!40101 SET NAMES utf8 */;
 
 --
--- Datenbank: `usr_web49_1`
+-- Datenbank: `root`
 --
 
 -- --------------------------------------------------------
