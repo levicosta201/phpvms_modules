@@ -1,7 +1,6 @@
 -- phpMyAdmin SQL Dump
 -- version 3.3.7deb7
 -- http://www.phpmyadmin.net
---
 -- Host: localhost
 -- Server Version: 5.1.61
 -- PHP-Version: 5.3.3-7+squeeze8
